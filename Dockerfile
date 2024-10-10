@@ -10,7 +10,6 @@ COPY autoindex.conf /etc/nginx/conf.d/
 COPY ents /usr/share/nginx/html/ents
 COPY geo /usr/share/nginx/html/geo
 COPY gig2 /usr/share/nginx/html/gig2
-COPY test /usr/share/nginx/html/test
 
 # Temporarily switch to root to create a non-root user with a specific UID and GID
 USER root
